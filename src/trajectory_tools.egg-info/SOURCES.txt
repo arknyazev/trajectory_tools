@@ -1,9 +1,0 @@
-README.md
-setup.py
-src/trajectory_tools/__init__.py
-src/trajectory_tools/trajectory_tools.py
-src/trajectory_tools.egg-info/PKG-INFO
-src/trajectory_tools.egg-info/SOURCES.txt
-src/trajectory_tools.egg-info/dependency_links.txt
-src/trajectory_tools.egg-info/requires.txt
-src/trajectory_tools.egg-info/top_level.txt
