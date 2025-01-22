@@ -11,7 +11,7 @@ This package contains tools for working with particle trajectory data generated 
 Clone this repository and install in development mode:
 
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/arknyazev/trajectory_tools
 cd trajectory_tools
 pip install -e .
 ```
