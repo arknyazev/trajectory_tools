@@ -153,7 +153,7 @@ def compute_locally_trapped_condition(
         )
     return locally_trapped_and_passing_island_lists
 
-def classify_trajectory_from_locally_trapped_secions(
+def classify_trajectory_from_locally_trapped_sections(
     trapped_shores : List[Tuple[int, int]],
     passing_shores : List[Tuple[int, int]]
 ) -> TrajectoryType:

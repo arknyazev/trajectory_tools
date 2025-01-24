@@ -8,7 +8,7 @@ from simsopt.field import BoozerRadialInterpolant
 from trajectory_tools import (
     Trajectory,
     compute_locally_trapped_condition,
-    classify_trajectory_from_locally_trapped_secions,
+    classify_trajectory_from_locally_trapped_sections,
     get_max_modB_spline,
     TrajectoryType
 )
@@ -37,7 +37,7 @@ trapped_sections, passing_sections = compute_locally_trapped_condition(
     trajectories=tj
 )[0]
 
-particle_type = classify_trajectory_from_locally_trapped_secions(
+particle_type = classify_trajectory_from_locally_trapped_sections(
     trapped_sections, passing_sections
 )
 print(f'{particle_type=}')
